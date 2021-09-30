@@ -12,6 +12,6 @@ Demo Video:
 
 2. Create a directive called 'RandomBackgroundColor' to apply to each 'search' that is in your search-results component. Each 'search' should have a random background color given to it. 
 
-BONUS: Whenever you hover over a 'search' change the backgroudn color to another random color.
+BONUS: Whenever you hover over a 'search' change the background color to another random color.
 
 3. Publish your repo to GitHub. Work on a project for the rest of class.
