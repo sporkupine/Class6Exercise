@@ -6,8 +6,7 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./search-results.component.css']
 })
 export class SearchResultsComponent implements OnInit {
-  // use @Input to take in values from the app component
-  results:string = ""
+
   constructor() { }
 
   ngOnInit(): void {

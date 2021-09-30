@@ -1,27 +1,17 @@
-# Class5exercise
+# Class 6 Exercise - Search Results
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
+**The components are provided for you and bootstrap 3 is installed**
 
-## Development server
+**after cloning the repo, don't forget to run 'npm install' to get the dependencies of the project**
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+**run 'ng serve'**
 
-## Code scaffolding
+Demo Video: 
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. In the navbar component, there is an input field that has a placeholder of 'Search'. Whenever you enter text in there, you should be able to click a button to be able to display whatever you search for in the search-results component(shown in the demo). It should show your history of what you search for.
 
-## Build
+2. Create a directive called 'RandomBackgroundColor' to apply to each 'search' that is in your search-results component. Each 'search' should have a random background color given to it. 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+BONUS: Whenever you hover over a 'search' change the backgroudn color to another random color.
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. Publish your repo to GitHub. Work on a project for the rest of class.
