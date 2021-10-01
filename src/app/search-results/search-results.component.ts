@@ -6,9 +6,14 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./search-results.component.css']
 })
 export class SearchResultsComponent implements OnInit {
-
+  @Input() searchResults;
+  @Input() defaultColor: string = 'transparent';
+  @Input() results;
   constructor() { }
+
+
 
   ngOnInit(): void {
   }
+
 }
